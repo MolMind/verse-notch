@@ -1,14 +1,18 @@
 # VerseNotch
 
+[English](README.en.md)
+
 VerseNotch 是一款原生 macOS 菜单栏音乐播放器。播放音乐时，同步歌词显示在屏幕顶部。
 
-[官网](https://versenotch.com/) · [Mac App Store](https://apps.apple.com/app/versenotch/id0000000000) · [快速开始](#快速开始) · [主要功能](#主要功能) · [制作插件](#制作插件)
+[官网](https://versenotch.com/) · [Mac App Store](https://apps.apple.com/app/versenotch/id0000000000) · [快速开始](#快速开始) · [主要功能](#主要功能) · [示例](#示例) · [制作插件](#制作插件)
 
 ![VerseNotch 的歌词浮窗，显示专辑封面、播放进度和同步歌词](assets/verse-notch-cover.png)
 
 ## 概览
 
-边工作边听歌时，可以在屏幕顶部看歌词，不必切回播放器。歌词有逐字时间时，当前字词会随演唱点亮。只有逐行时间时，歌词按句切换。支持的主题还可以切换为桌面全息歌词。无刘海的显示器也可以在菜单栏下方显示歌词。
+做着自己喜欢的事，耳边放着喜欢的歌，抬眼就能看见唱到的那一句。偶尔跟着哼两声，平常的一天也会多一点幸福。
+
+VerseNotch 把同步歌词放在屏幕顶部。带逐字时间的歌词会随演唱点亮，只有逐行时间的歌词则按句切换。支持的主题还可以切换为桌面全息歌词。无刘海的显示器也可以在菜单栏下方显示歌词。
 
 ## 快速开始
 
@@ -25,6 +29,12 @@ VerseNotch 是一款原生 macOS 菜单栏音乐播放器。播放音乐时，�
 | 本地曲库与 Navidrome | 导入本地音乐，或浏览并播放自建 Navidrome 曲库 |
 | 本地歌词绑定 | 在菜单栏为当前曲目绑定 UTF-8 LRC 或 VerseNotch v1 JSON，并校准歌词时间 |
 | 歌词样式插件 | 在「插件库」从文件导入 `.vnplugin` 歌词样式，预览后应用 |
+
+## 示例
+
+| 星海游鱼 | 怪盗回廊 |
+| :---: | :---: |
+| ![星海游鱼主题在 Mac 刘海浮窗中展示游鱼和逐字歌词](assets/examples/star-sea.gif) | ![怪盗回廊主题在 Mac 刘海浮窗中展示怪盗剪影和红黑歌词卡片](assets/examples/heist.gif) |
 
 ## 制作插件
 
