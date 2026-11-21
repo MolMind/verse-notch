@@ -4,6 +4,8 @@
 
 VerseNotch 是一款原生 macOS 菜单栏音乐播放器。播放音乐时，同步歌词显示在屏幕顶部。
 
+在 AI 盛行的时代，VerseNotch 或许很快会被复制，但做这款产品的用心，复制不了。
+
 [官网](https://versenotch.com/) · [Mac App Store](https://apps.apple.com/app/versenotch/id0000000000) · [快速开始](#快速开始) · [主要功能](#主要功能) · [示例](#示例) · [制作插件](#制作插件)
 
 ![VerseNotch 的歌词浮窗，显示专辑封面、播放进度和同步歌词](assets/verse-notch-cover.png)

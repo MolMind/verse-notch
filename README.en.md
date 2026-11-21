@@ -4,6 +4,8 @@
 
 VerseNotch is a native macOS menu bar music player that shows synced lyrics at the top of your screen.
 
+In an age of AI, VerseNotch may be copied quickly. The care that went into making it cannot.
+
 [Website](https://versenotch.com/en/) · [Mac App Store](https://apps.apple.com/app/versenotch/id0000000000) · [Quick start](#quick-start) · [Features](#features) · [Demos](#demos) · [Creating plugins](#creating-plugins)
 
 ![The VerseNotch lyric overlay showing album artwork, playback progress, and synced lyrics](assets/verse-notch-cover.png)
