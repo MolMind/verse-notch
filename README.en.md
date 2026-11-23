@@ -31,6 +31,7 @@ VerseNotch keeps the lyrics at the top of the screen. With word-level timing, th
 | Local library and Navidrome | Import local music or browse and play music from a self-hosted Navidrome library. |
 | Local lyric files | Attach a UTF-8 LRC file or VerseNotch v1 JSON to the current track from the menu bar and adjust lyric timing. |
 | Lyric-style plugins | Import a `.vnplugin` lyric style in the plugin library, preview it, and apply it. |
+| App language | Version 0.2.5 defaults to Simplified Chinese. Enable English under Plugin Library → Built-in Plugins or import another language. |
 
 ## Demos
 
@@ -41,6 +42,8 @@ VerseNotch keeps the lyrics at the top of the screen. With word-level timing, th
 ## Creating plugins
 
 Use the [lyric-style authoring skill](https://github.com/MolMind/verse-notch-skills/tree/lyric-style-v1.0.0/skills/versenotch-lyric-style) to create, validate, and package a `.vnplugin` file. The [lyric-style documentation](https://versenotch.com/en/docs/plugins/lyric-style) covers package rules, compatibility, and where to upload plugins. The [VerseNotch plugin skills repository](https://github.com/MolMind/verse-notch-skills) also provides design guides for music service login, lyrics and artwork retrieval, overlay styles, playback order, and audio presets.
+
+To translate the app interface, use the language plugin authoring skill to create a `.vnplugin` package, then install and enable it in the Plugin Library. [Language plugin authoring skill](https://github.com/MolMind/verse-notch-skills/tree/main/skills/versenotch-language) · [Language plugin documentation](https://versenotch.com/en/docs/plugins/language)
 
 ## Releases
 

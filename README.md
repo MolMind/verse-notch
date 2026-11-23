@@ -31,6 +31,7 @@ VerseNotch 把同步歌词放在屏幕顶部。带逐字时间的歌词会随演
 | 本地曲库与 Navidrome | 导入本地音乐，或浏览并播放自建 Navidrome 曲库 |
 | 本地歌词绑定 | 在菜单栏为当前曲目绑定 UTF-8 LRC 或 VerseNotch v1 JSON，并校准歌词时间 |
 | 歌词样式插件 | 在「插件库」从文件导入 `.vnplugin` 歌词样式，预览后应用 |
+| 客户端语言 | 0.2.5 起默认使用简体中文，在「插件库 → 内置插件」启用 English，也可以导入第三方语言包 |
 
 ## 示例
 
@@ -41,6 +42,8 @@ VerseNotch 把同步歌词放在屏幕顶部。带逐字时间的歌词会随演
 ## 制作插件
 
 用[歌词样式制作技能](https://github.com/MolMind/verse-notch-skills/tree/lyric-style-v1.0.0/skills/versenotch-lyric-style)制作、校验和打包 `.vnplugin`。从[官网歌词样式文档](https://versenotch.com/docs/plugins/lyric-style)查看规则、兼容版本和投稿入口。公开技能目录还提供平台登录、歌词与封面获取、浮窗样式、播放顺序和音质调节的设计技能。 [VerseNotch 插件技能](https://github.com/MolMind/verse-notch-skills)
+
+要翻译客户端界面，可用语言插件制作技能生成 `.vnplugin`，安装后在插件库启用。 [语言插件制作技能](https://github.com/MolMind/verse-notch-skills/tree/main/skills/versenotch-language) · [语言插件文档](https://versenotch.com/docs/plugins/language)
 
 ## 版本与发行
 
